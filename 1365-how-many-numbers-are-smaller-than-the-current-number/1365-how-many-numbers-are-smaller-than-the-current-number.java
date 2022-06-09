@@ -6,7 +6,7 @@ class Solution {
             int cnt=0;
             for(int j=0 ; j<nums.length ; j++)
             {
-                if(nums[j] < nums[i])
+                if(j!=i && nums[j] < nums[i])
                     cnt++;
             }
             res[i]=cnt;
