@@ -1,9 +1,6 @@
 class Solution {
     public boolean checkIfPangram(String sentence) {
-        int len = sentence.length();
-        if(len<26)
-            return false;
-        
+       
         boolean isPangram = true;
         sentence = sentence.toLowerCase();
         
