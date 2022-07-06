@@ -5,13 +5,12 @@ class Solution {
         
         for(int i=0 ; i<2*n ; i++)
         {
-            if(i<n){
+            if(i<n)
                 ans[i]=nums[i];
-            }
-            else{
+            else
                 ans[i]=nums[i-n];
-            }
         }
+        
         return ans;
     }
 }
